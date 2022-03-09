@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="Cars">
+			<HintPath>..\..\Car\Car\bin\Debug\net5.0\Cars.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
